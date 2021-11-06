@@ -1,18 +1,22 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+/*
 import {
   client,
   //useConfig,
   //useElementColumns,
   //useElementData,
 } from "@sigmacomputing/plugin";
+*/
 
+/*
 client.config.configureEditorPanel([
   { name: "source", type: "element" },
   { name: "dimension", type: "column", source: "source", allowMultiple: true },
   { name: "measures", type: "column", source: "source", allowMultiple: true },
 ]);
+*/
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -50,7 +54,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            ZZZ Edit <code>src/App.js</code> and save to reload.
+            AAA Edit <code>src/App.js</code> and save to reload.
           </p>
           <LambdaDemo />
         </header>
