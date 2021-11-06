@@ -3,9 +3,9 @@ import logo from "./logo.svg"
 import "./App.css"
 import {
   client,
-  useConfig,
-  useElementColumns,
-  useElementData,
+  //useConfig,
+  //useElementColumns,
+  //useElementData,
 } from "@sigmacomputing/plugin";
 
 client.config.configureEditorPanel([
